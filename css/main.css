@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    pointer-events: none;
+}
+
+.main {
+    color: rgb(251, 255, 0);
+}
+
+.back img {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.description {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+.heading {
+    font-size: 3.125rem;
+}
+
+.ganesh img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.kalash img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.sang {
+    position: relative;
+}
+
+.sang img {
+    transform: rotate(10deg);
+}
+
+.sang-p {
+    position: absolute;
+    font-size: 4.375rem;
+    font-weight: 800;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.ladki_photo {
+    border: 5px solid yellow;
+}
+
+.m1 {
+    position: fixed;
+    left: 1%;
+    width: auto;
+    height: 100%;
+    top: 1%;
+    color: #000;
+}
+
+.m2 {
+    position: fixed;
+    right: 1%;
+    width: auto;
+    height: 100%;
+    top: 1%;
+    color: #000;
+}
+
+/* Counter css */
+.counter {
+    text-align: center !important;
+}
+
+.counter li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.counter li span {
+    display: block;
+    font-size: 4.5rem;
+
+}
+
+.counter .message {
+    font-size: 4rem;
+}
+
+#content {
+    display: none;
+    padding: 1.4 rem;
+}
+
+.message {
+    color: yellow;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 1.875rem;
+    }
+
+    .mantra {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .counter li {
+        font-size: 8px;
+    }
+
+    .counter li span {
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 640px) {
+
+    /* CSS */
+    .heading {
+        font-size: 2rem;
+    }
+
+    .mantra {
+        font-size: 1.1rem;
+    }
+
+    .manglik h2 {
+        font-size: 1.7rem;
+    }
+
+    .manglik_inner h3 {
+        font-size: 1.6rem;
+    }
+
+    .manglik_inner p {
+        font-size: .8rem;
+    }
+
+    .kraykram h3 {
+        font-size: 1.6rem;
+    }
+
+    .kraykram p {
+        font-size: .9rem;
+    }
+
+    .kalash img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .manayvar h3 {
+        font-size: 1.9rem;
+    }
+
+    .parmpita h4 {
+        font-size: 1.5rem;
+    }
+
+    .var_photo img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .var_about h2 {
+        font-size: 1.5rem;
+    }
+
+    .var_about p {
+        font-size: .9rem;
+    }
+
+    .sang img {
+        width: 10rem;
+        width: auto;
+    }
+
+    .sang p {
+        font-size: 6rem;
+    }
+
+    .ke h1 {
+        font-size: 4rem;
+    }
+
+    .parinsav h3 {
+        font-size: 1.5rem;
+    }
+
+    .parinsav p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .var_family h2 {
+        font-size: 1.6rem;
+    }
+
+    .var_family p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 400px) {
+
+    /* CSS */
+    .heading {
+        font-size: 1.7rem;
+    }
+
+    .mantra {
+        font-size: 0.8rem;
+    }
+
+    .manglik h2 {
+        font-size: 1.5rem;
+    }
+
+    .manglik_inner h3 {
+        font-size: 1.2rem;
+    }
+
+    .manglik_inner p {
+        font-size: .7rem;
+    }
+
+    .kraykram h3 {
+        font-size: 1.4rem;
+    }
+
+    .kraykram p {
+        font-size: .7rem;
+    }
+
+    .kalash img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .manayvar h3 {
+        font-size: 1.7rem;
+    }
+
+    .parmpita h4 {
+        font-size: 1.3rem;
+    }
+
+    .var_photo img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .var_about h2 {
+        font-size: 1.3rem;
+    }
+
+    .var_about p {
+        font-size: .7rem;
+    }
+
+    .sang img {
+        width: 8rem;
+        width: auto;
+    }
+
+    .sang p {
+        font-size: 4rem;
+    }
+
+    .ke h1 {
+        font-size: 2rem;
+    }
+
+    .parinsav h3 {
+        font-size: 1.3rem;
+    }
+
+    .parinsav p {
+        font-size: .8rem;
+        padding: 0 10px;
+    }
+
+    .var_family h2 {
+        font-size: 1.3rem;
+    }
+
+    .var_family p {
+        font-size: .8rem;
+        padding: 0 20px;
+    }
+}
+
+
+
+
+.textshadow {
+    color: transparent !important;
+    text-shadow: 0 0 4px rgb(255, 217, 0);
+}
+
+
+.textshadow_high {
+    color: transparent !important;
+    text-shadow: 0 0 10px rgb(255, 217, 0);
+}
+
